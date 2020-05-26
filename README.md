@@ -80,21 +80,25 @@ python part1_main.py <algorithm_name > <parameter_1 > <parameter_2 > < parameter
 Please use the following command line parameters for the main.py file :-
 
 * SVM classifier The code should look like
-1 ```python part1_main.py svm <parameter_1 > <parameter_2 > ```
+
+```python part1_main.py svm <parameter_1 > <parameter_2 > ```
+
 We only have 2 parameters for the SVM algorithm which are: 
 
     1. ```<parameter_1 >``` (kernel) The kernel can take values from :
-        • ‘linear’, 
-    • ‘poly’, 
-    • ‘rbf’, 
-    • ‘sigmoid’ and 
-    • ‘precomputed’
+    * ‘linear’, 
+    * ‘poly’, 
+    * ‘rbf’, 
+    * ‘sigmoid’ and 
+    * ‘precomputed’
     2. ```<parameter_2 >``` (penalty parameter) 
         The penalty parameter can take any float value
         
 ***The neural network classifier (MLP classifier)*** 
 The code should look like :
+
 ```python part1_main.py nn <parameter_1 > <parameter_2 >```
+
 Please provide parameter 1 as a string. 
 We only have 2 parameters for the neural network algorithm which are: 
 
@@ -124,9 +128,13 @@ We only have 3 parameters for the gradient boosting algorithm which are:
 This parameter can take values from the following :– ”sqrt” – ”log2”
 3. ```<parameter_3 >``` (criterion)
 This parameter can take values from the following :– ”friedman mse” – ”mse”
+
 ***Part 2.*** The code should look like :
+
     ```python part2_main.py <input_image_path > <k> <output_image_path > < number_of_iterations > <number_of_initializations >```
+    
     We only have 5 parameter for the part 2 which is: 
+    
     1. ```input image path``` 
     This the path at which the input image is stored
     2. ```K``` 

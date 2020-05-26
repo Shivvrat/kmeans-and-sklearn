@@ -132,7 +132,6 @@ This parameter can take values from the following :– ”friedman mse” – �
 ***Part 2.*** The code should look like :
 
     ```python part2_main.py <input_image_path > <k> <output_image_path > < number_of_iterations > <number_of_initializations >```
-    
     We only have 5 parameter for the part 2 which is: 
     
     1. ```input image path``` 

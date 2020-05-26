@@ -1,1 +1,1 @@
-# knn-and-sklearn
+# k-means-and-sklearn

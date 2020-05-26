@@ -85,13 +85,13 @@ Please use the following command line parameters for the main.py file :-
 
 We only have 2 parameters for the SVM algorithm which are: 
 
-    1. ```<parameter_1 >``` (kernel) The kernel can take values from :
+    1 ```<parameter_1 >``` (kernel) The kernel can take values from :
     * ‘linear’, 
     * ‘poly’, 
     * ‘rbf’, 
     * ‘sigmoid’ and 
     * ‘precomputed’
-    2. ```<parameter_2 >``` (penalty parameter) 
+    2  ```<parameter_2 >``` (penalty parameter) 
         The penalty parameter can take any float value
         
 ***The neural network classifier (MLP classifier)*** 
@@ -130,7 +130,6 @@ This parameter can take values from the following :– ”sqrt” – ”log2”
 This parameter can take values from the following :– ”friedman mse” – ”mse”
 
 ***Part 2.*** The code should look like :
-
     ```python part2_main.py <input_image_path > <k> <output_image_path > < number_of_iterations > <number_of_initializations >```
     We only have 5 parameter for the part 2 which is: 
     
